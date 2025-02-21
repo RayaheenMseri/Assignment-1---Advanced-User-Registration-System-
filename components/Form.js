@@ -8,7 +8,7 @@ export class Form {
                 <form>
                 <h4 class="mb-4">Organization Information</h4>
                 <hr class="mb-4">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
                     <div>
                         <label for="companyName">Company Name</label>
                         <input type="text" id="companyName" name="companyName"

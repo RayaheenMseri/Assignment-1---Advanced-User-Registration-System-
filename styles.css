@@ -21,6 +21,12 @@ input, select{
     border-radius: 4px;
 }
 
+@media (min-width: 900px) {
+    .custom-md\:grid-cols-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 label{
     color: gray;
     padding: 10px 0;
