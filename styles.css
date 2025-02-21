@@ -1,0 +1,323 @@
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #36B98C;
+}
+
+main{
+    padding: 0 60px;
+}
+
+.Slogo{
+    padding: 30px 0;
+}
+
+input, select{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label{
+    color: gray;
+    padding: 10px 0;
+}
+
+h4{
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+    color: #36B98C;
+    margin: 20px;
+    font-weight: 450;
+}
+
+.custom-button , #butt {
+    padding: 8px 24px;
+    background-color: #36B98C;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem;
+    width: 20%;
+}
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+body {
+    background-color: #ccc;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f4f4f4;
+}
+
+#salamalLogo {
+    height: 3rem;
+    width: 10rem;
+}
+
+.div1 {
+    padding-bottom: 5rem;
+}
+
+.logo {
+    background-color: rgb(59, 109, 109);
+    margin: 0rem 5rem;
+    padding: 1rem 0rem;
+    border: #000000 solid 2px;
+}
+
+.div2 {
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    width: 83.5rem;
+    margin: 0rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.error {
+    color: red;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+input , select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 25rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+}
+
+#city,
+#Region,
+#zipCode {
+    width: 20rem;
+}
+
+#Terms {
+    display: inline;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0.2rem;
+    vertical-align: bottom;
+    position: relative;
+}
+
+button {
+    width: 20rem;
+    padding: 10px;
+    background-color: #81cd85;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer{
+    color: #81cd85;
+    text-align: center;
+}
+
+#bDiv{
+    align-items: center;
+}
+
+#bDiv button{
+    display: inline;
+}
+
+
+/* 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-group {
+    width: 48%;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+} */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(90deg, rgba(0,33,36,0.9355391814929097) 0%, rgba(79,9,121,1) 41%, rgba(137,0,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#data{
+    margin: 1rem;
+}
+
+#reg{
+    background-color: white;
+    width: 50rem;
+    padding: 2.5rem;
+}
+
+#zipCode, #Region{
+    width: 38%;
+    display: inline;
+}
+
+#Terms{
+    display: inline;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0.2rem;
+    vertical-align: bottom;
+    position: relative;
+}
+
+h2{
+    text-align: center;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* العمود الأول 200 بكسل، والثاني يأخذ المساحة المتبقية 
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 600rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+label {
+    text-align: right;
+    font-weight: bold;
+    margin-left: 0.3rem;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    grid-column: 2; /* يظهر تحت الإدخال 
+}
+
+button {
+    width: 20rem;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+} */ 
