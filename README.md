@@ -1,7 +1,7 @@
 # System for User Registration
 
 ## Project Summary
-Inspired by the Salamah Registration Portal, this project is a fully working **User Registration System**. With the use of contemporary web technologies, such as **HTML5, TailwindCSS, Material UI, Animate.css, JavaScript (ES6+), and TypeScript**, it has an animated and responsive registration form. The solution guarantees a smooth registration process, verifies user input, and interfaces with an external API to get business data.
+Inspired by the Salamah Registration Portal, this project is a fully working **User Registration System**. With the use of contemporary web technologies, such as **HTML5, TailwindCSS, Material UI, Animate.css, and JavaScript (ES6+)**, it has an animated and responsive registration form. The solution guarantees a smooth registration process, verifies user input, and interfaces with an external API to get business data.
 
 A responsive landing page and a registration form with input fields are two features that have been implemented.
   Company name, phone number, email address, and commercial registration number
