@@ -20,8 +20,6 @@ export function validateForm(companyName,commercialRegistrationNumber,email,phon
     }
     if (!zipCode) {
         errors.zipCode = "Zip Code is required!";
-    }else if(zipCode.length != 5){
-        errors.zipCode = "Zip Code must be 5 digit.";
     }
     if (!businessType) {
         errors.businessType = "Business Type is required!";
@@ -31,6 +29,9 @@ export function validateForm(companyName,commercialRegistrationNumber,email,phon
     }
     if (!phoneNumber) {
         errors.phoneNumber = "Phone number is required!";
+    }
+    if (!confirmPassword) {
+        errors.confirmPassword = "Confirm Password is required!";
     }
     
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
