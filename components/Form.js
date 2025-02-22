@@ -94,6 +94,10 @@ export class Form {
                 <div class="flex justify-center" id='bDiv'>
                     <button type="submit" id='butt'>Submit</button>
                 </div>
+                <div id="loadingSpinner">
+                    <div class="spinner-icon"></div>
+                    <p>Loading...</p>
+                </div>
             </form>
         `;
 
