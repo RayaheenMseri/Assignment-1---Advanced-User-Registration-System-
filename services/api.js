@@ -7,6 +7,6 @@ export async function fetchInfo() {
         return data
 
     } catch (error) {
-        throw new Error("<li>Error fetching users</li>");
+        throw new Error("Error Retrieveing Data");
     }
 }
