@@ -163,7 +163,7 @@ export class Form {
                         await fetchInfo().then(
                             data =>
                                 data.forEach(user => {
-                                    if (user.company.name === name)
+                                    if (user.company.name === name){
                                     document.getElementById('companyName').value = user.company.name
                                     document.getElementById('email').value = user.email
                                     document.getElementById('phoneNumber').value = user.phone
@@ -175,6 +175,7 @@ export class Form {
                                     document.getElementById("Terms").checked = true
                                     document.getElementById("password").value = pass;
                                     document.getElementById("confirmPassword").value = cp;
+                                    }
                                 }
                                 )
     
